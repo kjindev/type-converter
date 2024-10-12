@@ -1,6 +1,9 @@
+import JSCodeEditor from "../components/JSCodeEditor";
+import TSCodeEditor from "../components/TSCodeEditor";
+
 export default function Main() {
   return (
-    <div className="w-[100%] mt-[100px]">
+    <div className="w-[100%] my-[100px]">
       <div className="w-full flex flex-col justify-center items-center">
         <p className="text-4xl font-bold">JavaScript를 TypeScript로 변환하기</p>
         <p className="text-sm my-6 text-center text-slate-700 leading-6">
@@ -13,8 +16,8 @@ export default function Main() {
         </p>
       </div>
       <div className="flex justify-center items-center">
-        <div className="w-[500px] h-[600px] bg-slate-100 mx-6 my-12 rounded-md"></div>
-        <div className="w-[500px] h-[600px] bg-slate-100 mx-6 my-12 rounded-md"></div>
+        <JSCodeEditor />
+        <TSCodeEditor />
       </div>
     </div>
   );
