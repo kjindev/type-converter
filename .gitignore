@@ -1,0 +1,35 @@
+node_modules/
+
+dist/
+
+# Yarn의 플러그인 캐시와 로그 파일
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# 환경 설정 파일
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+
+# TypeScript 캐시 파일
+*.tsbuildinfo
+
+# Mac OS에서 생성되는 불필요한 파일
+.DS_Store
+
+# 로그 파일
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Git에서 생성되는 충돌 해결 파일
+*.orig
