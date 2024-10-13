@@ -1,1 +1,1 @@
-export const projectTitle = "TYPE-CONVERTER";
+export const projectTitle = "BEYOND-TYPE";

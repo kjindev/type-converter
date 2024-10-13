@@ -8,6 +8,7 @@ export default function App() {
       <div className="pt-[60px]">
         <Main />
       </div>
+      <footer className="w-full h-[100px] bg-zinc-900"></footer>
     </div>
   );
 }
